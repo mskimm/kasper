@@ -473,8 +473,7 @@ margin on the iframe, cause it breaks stuff. */
     position: relative;
     display: table;
     width: 100%;
-    height: 100%;
-    margin-bottom: 5rem;
+    height: 38px;
     text-align: center;
     background: #222 no-repeat center center;
     background-size: cover;
@@ -487,8 +486,7 @@ margin on the iframe, cause it breaks stuff. */
 
 .main-nav {
     position: relative;
-    padding: 35px 40px;
-    margin: 0 0 30px 0;
+    padding: 0 15px 0 15px;
 }
 
 .main-nav a {
@@ -594,23 +592,12 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .subscribe-button {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    display: inline-block;
     float: right;
-    height: 38px;
-    padding: 0 20px;
-    border: transparent 1px solid;
+    padding: 0 7px;
     color: #9EABB3;
     text-align: center;
-    font-size: 12px;
-    text-transform: uppercase;
+    font-size: 14px;
     line-height: 35px;
-    white-space: nowrap;
-    border-radius: 3px;
-    background: rgba(0,0,0,0.1);
-    transition: all ease 0.3s;
 }
 .subscribe-button:before {
     font-size: 9px;
@@ -680,8 +667,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .no-cover.main-header {
-    min-height: 160px;
-    max-height: 40%;
+    height: 50px;
     background: #f5f8fa;
 }
 
