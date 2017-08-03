@@ -1319,7 +1319,6 @@ body:not(.post-template) .post-title {
 @media only screen and (max-width: 900px) {
 
     .main-nav {
-        padding: 15px;
     }
 
     blockquote {
@@ -1330,10 +1329,6 @@ body:not(.post-template) .post-title {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
-        height: auto;
-        min-height: 240px;
-        height: 60%;
-        padding: 15% 0;
     }
 
     .scroll-down,
@@ -1443,8 +1438,6 @@ body:not(.post-template) .post-title {
 @media only screen and (max-width: 500px) {
 
     .main-header {
-        margin-bottom: 15px;
-        height: 40%;
     }
 
     .no-cover.main-header {
@@ -1458,9 +1451,6 @@ body:not(.post-template) .post-title {
     }
 
     .main-nav {
-        padding: 0;
-        margin-bottom: 2rem;
-        border-bottom: #e0e4e7 1px solid;
     }
 
     .blog-logo {
@@ -1473,11 +1463,6 @@ body:not(.post-template) .post-title {
 
     .back-button,
     .subscribe-button {
-        height: 44px;
-        line-height: 41px;
-        border-radius: 0;
-        color: #2e2e2e;
-        background: transparent;
     }
     .back-button:hover,
     .subscribe-button:hover {
@@ -1491,7 +1476,6 @@ body:not(.post-template) .post-title {
     }
 
     .subscribe-button {
-        padding: 0 12px;
     }
 
     .main-nav.overlay a:hover {
