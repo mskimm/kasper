@@ -3,13 +3,13 @@ name: mskim.org
 meta_description: "Blog"
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 logo: false
 paginate: 15
 baseurl: /
 domain_name: 'http://mskim.org'
 google_analytics: 'UA-97982726-1'
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 # Details for the RSS feed generator
 url:            'http://mskim.org'
